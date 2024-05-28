@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: hsl(47, 88%, 63%);
+}
+
+.main {
+    display: grid;
+    background: white;
+    border-radius: 15px;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px black solid;
+    box-shadow: 10px 10px 0px black;
+    align-items: left;
+    justify-content: left;
+}
+
+.illustration{
+	border-radius: 15px;
+	margin: auto;
+}
+
+button{
+	background: hsl(47, 88%, 63%);
+	font-weight: bolder;
+	border-radius: 5px;
+	border: none;
+	height: 30px;
+	width: 70px;
+	color: balck;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+h3{
+	color: black;
+	font-weight: 10;
+}
+
+h2{
+	color: hsl(47, 88%, 63%);
+	cursor: pointer;
+}
+
+p{
+	color: hsl(0, 0%, 50%);
+}
+
+.profile{
+	display: flex;
+	align-items: center;
+}
+
+.profile img{
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
+
+h4{
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        max-width: 90%;
+    }
+}
+
+
+
